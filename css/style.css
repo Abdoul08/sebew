@@ -1,0 +1,111 @@
+body {
+    background-color: #FFFFFF;
+    font-family: 'Arial', sans-serif;
+    
+}
+
+.navbar {
+    background-color: #FFDB58; /*j hésite avec #2C3E50 et FFDB58*/
+}
+
+.navbar-brand {
+    color: #FFFFFF; 
+    font-weight: bold;
+}
+
+.navbar-toggler-icon {
+    background-color: #FFDB58; 
+}
+
+.navbar-nav .nav-link {
+    color: #FFFFFF;
+}
+
+.lien {
+    color: #000; 
+    background-color: #fff;
+
+}
+
+.nav-link:hover {
+    color: #000; 
+    background-color: #fff;
+}
+
+.jumbotron {
+    background-color: #f8f9fa; /*j'hésite avec background:linear-gradient(90deg, #00FF00 33.33%, #FFFF00 33.33%, #FFFF00 66.66%, #FF0000 66.66%); */
+    padding: 80px 20px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.jumbotron h1 {
+    font-size: 2rem;
+    color: #333;
+    font-weight: bold;
+}
+
+.jumbotron p {
+    font-size: 1.5rem;
+    color: #555;
+}
+
+.services {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.service-icon {
+    font-size: 2.5em;
+    color: #FFDB58;
+}
+
+.service-title {
+    font-size: 1.5em;
+    color: #333333;
+    margin-top: 20px;
+}
+
+.service-description {
+    color: #555555;
+    font-size: 1.1em;
+    margin-top: 10px;
+}
+
+.card {
+    border: none;
+    margin-top: 20px;
+    background-color: #fff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .card-title {
+    color: #FFDB58; /* Vert */
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+
+  .card:hover {
+  transform: translateY(-1px);
+  box-shadow:  0px 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+  .card-text {
+    color: #000000;
+  }
+
+  .important-info {
+    font-weight: bold;
+    font-size: 1.2em;
+  }
+
+  .like-comment-icons {
+    margin-top: 10px;
+  }
+
+  .like-icon,
+  .comment-icon {
+    color: #FFDB58; /* Vert */
+    font-size: 24px;
+    margin-right: 10px;
+  }
